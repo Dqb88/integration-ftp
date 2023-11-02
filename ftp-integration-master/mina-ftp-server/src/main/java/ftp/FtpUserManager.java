@@ -2,7 +2,6 @@ package ftp;
 
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
-import lombok.extern.log4j.Log4j2;
 import org.apache.ftpserver.ftplet.*;
 import org.apache.ftpserver.usermanager.UsernamePasswordAuthentication;
 import org.apache.ftpserver.usermanager.impl.ConcurrentLoginPermission;
@@ -19,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@Log4j2
+
 @RequiredArgsConstructor
 class FtpUserManager implements UserManager {
 

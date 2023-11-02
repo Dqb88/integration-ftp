@@ -25,7 +25,7 @@ import java.util.Map;
 import static org.springframework.web.servlet.function.RouterFunctions.route;
 
 @Configuration
-@Profile("gateway")
+@Profile("gateway") //gateway is a bidirectional messaging component
 class GatewayConfiguration {
 
 	@Bean

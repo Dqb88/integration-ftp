@@ -1,6 +1,6 @@
 package ftp;
 
-import lombok.extern.log4j.Log4j2;
+
 import org.apache.ftpserver.FtpServer;
 import org.apache.ftpserver.FtpServerFactory;
 import org.apache.ftpserver.filesystem.nativefs.NativeFileSystemFactory;
@@ -23,7 +23,7 @@ import java.util.Collections;
 import java.util.Map;
 
 
-@Log4j2
+
 @Configuration
 class FtpServerConfiguration {
 

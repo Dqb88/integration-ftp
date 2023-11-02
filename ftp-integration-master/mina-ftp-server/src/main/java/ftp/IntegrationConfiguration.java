@@ -38,9 +38,9 @@ class IntegrationConfiguration {
 
 	@Bean
 	ApplicationEventListeningMessageProducer applicationEventListeningMessageProducer() {
-		var producer = new ApplicationEventListeningMessageProducer();
-		producer.setEventTypes(ApacheMinaFtpEvent.class);
-		producer.setOutputChannel(eventsChannel());
-		return producer;
+		var produc = new ApplicationEventListeningMessageProducer();
+		produc.setEventTypes(ApacheMinaFtpEvent.class);
+		produc.setOutputChannel(eventsChannel());
+		return produc;
 	}
 }

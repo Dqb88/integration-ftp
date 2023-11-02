@@ -10,5 +10,3 @@ public class MinaFtpServerApplication {
 		SpringApplication.run(MinaFtpServerApplication.class, args);
 	}
 }
-
-

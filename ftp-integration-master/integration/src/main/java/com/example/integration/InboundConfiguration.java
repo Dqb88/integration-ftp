@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 @Configuration
 @Log4j2
-@Profile("inbound")
+@Profile("inbound") // FTP inbound adapter
 class InboundConfiguration {
 
 	@Bean
