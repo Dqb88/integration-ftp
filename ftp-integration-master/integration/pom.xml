@@ -12,10 +12,10 @@
     <artifactId>integration</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>integration</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Demo project for Spring Boot + Integrator in FTP portocol</description>
 
     <properties>
-        <java.version>12</java.version>
+        <java.version>17</java.version>
     </properties>
 
     <dependencies>
