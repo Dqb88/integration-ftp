@@ -1,4 +1,4 @@
-# integration-ftp
+# Integration-ftp
 FTP server developed using Spring Integrator
 
 This project try to develop a FTP service using Apache Mina FTPServer.
